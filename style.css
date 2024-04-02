@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+ /* Animation Started */
+
+#main{
+  position: relative;
+  overflow: hidden;
+}
+
+#page{
+  height: 100vh;
+  width: 100vw;
+  background-color: #f1f1f1;
+  position: relative;
+}
+
+#page1{
+  height: 100vh;
+  width: 100vw;
+  background-color: #f1f1f1;
+  position: relative;
+}
+
+#page2{
+  height: 100vh;
+  width: 100vw;
+  background-color: #f1f1f1;
+  position: relative;
+}
+
+#page3{
+  height: 100vh;
+  width: 100vw;
+  background-color: #f1f1f1;
+  position: relative;
+}
+
+canvas{
+  max-width: 100vw;
+  max-height: 100vh;
+  position: relative;
+  z-index: 9;
+}
+
+#loop{
+  height: 25%;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  display: flex;
+}
+
+#loop h1{
+  font-size: 100px;
+  font-family: gilroy;
+  white-space: nowrap;
+  font-weight: 400;
+  animation-name: likeMarquee;
+  animation-duration: 15s;
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+}
+
+/* USE THIS INTEAD OF MARQUEE TOOL */
+@keyframes likeMarquee {
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-100%);  /*GOES FROM RIGHT TO LEFT*/
+  }
+}
+
+#loop h1 span{
+  -webkit-text-stroke: 1.2px #000;
+  color: transparent;
+  font-weight: 500;
+}
+
+/* NAVBAR STYLING */
+
+#nav{
+  height: 8.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 99;
+  width: 100vw;
+}
+
+#nav h2{
+  font-family: sans-serif;
+  margin-top: 15px;
+ margin-left: 25px;
+}
+
+#nav h2 span{
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+#box{
+  display: flex;
+  width: 27%;
+  gap: 14px;
+  margin-top: 11px;
+}
+
+#box h4{
+  font-family: sans-serif;
+  font-weight: 200;
+  padding-top: 3%;
+}
+
+#box button{
+font-size: 14px;
+font-family: sans-serif;
+font-weight: 300;
+background-color: #000;
+color: #fff;
+padding: 10px;
+border-radius:20px;
+}
+
+
+#page>h4{
+  position: absolute;
+  top: 63%;
+  font-family: gilroy;
+  font-weight: 300;
+  color: #7c7c7c;
+  left: 1.5%;
+  font-size: 17px;
+}
+
+#page>h3{
+  position: absolute;
+  top: 64%;
+  font-family: gilroy;
+  font-weight: 800;
+  color: #000;
+  left: 72%;
+  font-size: 20px;
+}
+
+.one{
+position: absolute;
+top: 22%;
+left: 7%;
+
+}
+
+.one p{
+  font-weight: 800;
+  color: #7c7c7c;
+  font-size: 19px;
+  }
+
+.one h1{
+  font-weight: bold;
+  color:#000;
+  font-size: 40px;
+  font-family: sans-serif;
+   }
+
+
+.two{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+   }
+    
+.two p{
+      font-weight: 800;
+      color: #7c7c7c;
+      font-size: 19px;
+      }
+    
+ .two h1{
+      font-weight: bold;
+      color:#000;
+      font-size: 40px;
+      font-family: sans-serif;
+      text-align: end;
+     }
+
+#page2>#text1{
+  position: absolute;
+  top: 22%;
+  left: 10%;
+}     
+    
+#page2>#text1>h3{
+  color: #7c7c7c;
+  font-weight: 400;
+  font-family: sans-serif;
+}  
+
+#page2>#text1>h1{
+  font-size: 60px;
+  line-height: 1.25;
+  font-family: sans-serif;
+}  
+
+#page2>#text2{
+  position: absolute;
+  top: 55%;
+  right: 2.5%;
+} 
+
+#page2>#text2>p{
+  color: #7c7c7c;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-align: end;
+}  
+
+#page3>#text3{
+  position: absolute;
+  top: 37%;
+  right: 3%;
+  text-align: end;
+}
+
+#page3>#text3>h3{
+color:#7c7c7c;
+font-weight: 400;
+}
+
+#page3>#text3>h1{
+  font-size: 70px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+                                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
